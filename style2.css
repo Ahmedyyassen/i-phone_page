@@ -1,0 +1,75 @@
+@media (max-width: 800px) {
+    nav{
+        width: 95%;
+    }
+    section{
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        padding: 60px 0;
+    }
+    .box2 img{
+        width:120px;
+    }
+    .right p{
+        display: none;
+    }
+    .right h1{
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: rgba(0,0,0,0.4);
+        height: 100vh;
+        width: 200px;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        padding: 80px 0 0 10px;
+        gap: 30px;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.2);
+        transition: all 0.5s ease;
+        
+    }
+    #navbar a{
+        padding: 5px 100px 5px 5px;
+        border-radius: 5px;
+    }
+
+       #navbar.active {
+    right: 0px;
+}
+ 
+    #navbar #shop{
+        display: none;
+    }
+    #navbar #cancle{
+        display: initial;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .box3 img{
+        width: 33px;
+    }
+   .bar{
+    display: block;
+   }
+   #shop-mobile{
+    border-radius: 50%;
+    font-size: 20px;
+   
+   }
+   #shop-mobile:hover{
+    background-color: #fff;
+    color: #000;
+
+   }
+
+  }
